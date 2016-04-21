@@ -1,0 +1,63 @@
+/* Inserta tu codigo aqui */
+.tipografia li{
+	list-style: none;
+	float: left;
+	margin-top: 5px;
+	color:white;
+	margin-right: 0px;
+	display: inline-block;
+	font-family: Arial;
+	padding: 30px 20px;
+}
+.fondoheader{
+	background-color: #191919;
+	height: 100px;
+}
+.logo1{
+	width: 200px;
+	height: 80px;
+}
+.fondo{
+	background-color: #4D2B63;
+	background-repeat: no-repeat;
+}
+.caja1{
+	background-image: url(../image/header-image.jpg);
+	padding-top: 40%;
+	max-width: 100%;
+	background-size: cover;
+	
+
+}
+.caja1-1{
+	border:2px solid blue;
+	margin-bottom: 50px;
+	margin-top: 0px;
+	background-color: black;
+	text-align: center;
+	z-index: 0;
+}
+.img1{
+	max-width: 100%;
+}
+.textSpring{
+	font-family: Courgette;
+	font-size: 30px;
+	color: #FF9C3F;
+}
+.fotos{
+	width: 300px;
+	min-height: 300px;
+	float: left;
+	padding: 2px;
+}
+
+/* Responsive */
+
+@media screen and (max-width : 920px) {
+
+}
+
+@media screen and (max-width: 600px) {
+
+}
