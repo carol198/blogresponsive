@@ -23,25 +23,23 @@
 }
 .caja1{
 	background-image: url(../image/header-image.jpg);
-	padding-top: 25%;
+	padding-top: 20%;
 	max-width: 100%;
 	background-size: cover;
-	margin-bottom: 0px;
+	height: 450px;
+
 }
 .caja2{
 	padding: 2% 0% 2% 0%;
 	max-width: 100%;
-	
 }
 .caja1-1{
-	border:2px solid blue;
 	background-color: black;
 	max-width: 70%;
-	padding: 0px 200px 10px 200px;
-	margin: 0 auto;
+	padding: 50px 150px 50px 150px;
 	background-size: cover;
-
-	
+	margin-left: 130px;
+	margin-bottom: 280px;
 }
 .img1{
 	max-width: 100%;
@@ -55,7 +53,7 @@
 .marcos h4{
 	font-family: Courgette;
 	color: #FF9C3F;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 .marcos p{
 	font-family: Arial;
@@ -67,17 +65,51 @@
 	color: white;
 }
 .fotos{
-	width: 300px;
+	width: 100%;
 	min-height: 300px;
 	float: left;
 	margin-left: 0 auto;
-
 }
-.marcos img{
-	border-bottom: 100px solid black;
+.marcos{
+	background-color: black;
+	margin: 0px;	
+}
+.now img{
+	min-width: 100%;
+}
+.imgnow{
+	width: 100%;
+}
+.search{
+	width: 100%;
+	border-radius: 10px;
+	height: 100px;
+	margin-bottom: 10px;
 	margin-left: 0px;
 }
-
+.about img{
+	width: 100%;
+	margin-right: 0px;
+}
+.marcos input{	
+	color: #FF9C3F;
+}
+input{
+	background-color: #4D2B63;
+	border-color: none;
+	width: 95%;
+	height: 80%;
+	padding-top: 10%;
+	padding-left: 20%;
+	border-radius: 10px;
+	border-style: none;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.about{
+	padding-top: 10%;
+}
 /* Responsive */
 
 @media screen and (max-width : 920px) {
