@@ -7,7 +7,7 @@
 	margin-right: 0px;
 	display: inline-block;
 	font-family: Arial;
-	padding: 30px 20px;
+	padding: 20px 10px;
 }
 .fondoheader{
 	background-color: #191919;
@@ -23,33 +23,59 @@
 }
 .caja1{
 	background-image: url(../image/header-image.jpg);
-	padding-top: 40%;
+	padding-top: 25%;
 	max-width: 100%;
 	background-size: cover;
+	margin-bottom: 0px;
+}
+.caja2{
+	padding: 2% 0% 2% 0%;
+	max-width: 100%;
 	
-
 }
 .caja1-1{
 	border:2px solid blue;
-	margin-bottom: 50px;
-	margin-top: 0px;
 	background-color: black;
-	text-align: center;
-	z-index: 0;
+	max-width: 70%;
+	padding: 0px 200px 10px 200px;
+	margin: 0 auto;
+	background-size: cover;
+
+	
 }
 .img1{
 	max-width: 100%;
 }
-.textSpring{
+
+.caja1-1 h1{
 	font-family: Courgette;
-	font-size: 30px;
+	font-size: 50px;
 	color: #FF9C3F;
+}
+.marcos h4{
+	font-family: Courgette;
+	color: #FF9C3F;
+	margin-bottom: 20px;
+}
+.marcos p{
+	font-family: Arial;
+	font-size: 10px;
+	color: white;
+}
+.caja1-1 h5{
+	font-family: OpenSans;
+	color: white;
 }
 .fotos{
 	width: 300px;
 	min-height: 300px;
 	float: left;
-	padding: 2px;
+	margin-left: 0 auto;
+
+}
+.marcos img{
+	border-bottom: 100px solid black;
+	margin-left: 0px;
 }
 
 /* Responsive */
